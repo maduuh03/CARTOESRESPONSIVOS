@@ -1,28 +1,47 @@
-.caixote{
-     width: 300px;
-     height: 500px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     border: 1px solid gray;
-     border-radius: 15px;
-     }
-.caixote img{
-     width: 100%;
-     border-radius: 15px;
+#caixa-cartoes{
+    display: flex;
+    justify-content: space-evenly;
+}
 
-    } 
+.caixote{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 10px color #888888;
+}
+.caixote img{
+    width: 100%;
+    border-radius: 15px;
+}
 .item p{
-     padding: 5px;
-     taxt-aling: justify;
-     } 
-     h2{ 
-        display: flex;
-        align-items: center;
-         flex-direction: column;
-         }
-          button{
-            padding: 10px;
-            border-radius: 15px;
-            background-color: rgb(207, 9, 9); }
-            
+    text-align: justify;
+}
+h2{
+  display: flex;   
+  align-items: center;
+  flex-direction: column;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(214, 219, 224);
+}
+header{
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     background-color: lightskyblue;
+     text-align: center;
+}
+
+footer{
+     position: absolute;
+     bottom: 0px;
+     width: 100%;
+     background-color: lightskyblue;
+     text-align: center;
+}
